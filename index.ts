@@ -10,5 +10,8 @@ const observableButtonEl =
 const unsubscribeButtonEl =
   document.querySelector<HTMLButtonElement>('[data-unsubscribe]');
 
-let subscription: Subscription;
-observableButtonEl.addEventListener('click', (event) => {
+promiseButtonEl.addEventListener('click', (event) => {
+  new Promise((resolve, reject) =>{
+
+  })
+});
